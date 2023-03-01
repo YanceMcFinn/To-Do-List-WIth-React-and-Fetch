@@ -13,6 +13,7 @@ if(process.env.GITPOD_WORKSPACE_URL){
 console.log("publicUrl", publicUrl)
 
 module.exports = {
+  
   entry: [
     './src/js/index.js'
   ],
