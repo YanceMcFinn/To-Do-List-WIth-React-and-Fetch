@@ -1,17 +1,32 @@
- @import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 body {
-    background-image: url("https://images.unsplash.com/photo-1586076100131-32505c71d0d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+    background-image: url("https://textures.world/wp-content/uploads/2018/10/Aluminum-Brushed-Metal-Seamless-Background-Textures-7-copy.jpg");
     background-size: cover;
 }
 #toDoTitle {
     font-size: 42px;
-    font-family: 'Shantell Sans', cursive;
-    font-weight: 500;
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(255, 255, 255,.5);
+    color:rgba(0, 0, 0,.8);
+    padding: 0px;
+    margin-bottom: -7px;
+}
+#copy1 {
+    font-size: 13px;
+    
+}
+#toDoSubTitle {
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    text-shadow: 0 1px 0 rgba(255, 255, 255,.5);
+    color:rgba(0, 0, 0,.8);
+    margin-bottom: 3px;
 }
 
 ul {
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Abel', sans-serif;
     font-weight: 400;
     font-size: 18px;
     box-shadow: -3px 3px 5px 1px rgba(0, 0, 0,.3);
@@ -48,6 +63,14 @@ li:hover #delete {
 	transition: 0.2s linear;
 }
 
+#footer {
+    font-size: 14px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    text-shadow: 0 1px 0 rgba(255, 255, 255,.5);
+    color:rgba(0, 0, 0,.8);
+    margin: 10px auto; 
+}
 /* 
 
     You can write your own styles here...
